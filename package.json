@@ -1,0 +1,19 @@
+{
+  "name": "simon-says",
+  "version": "1.0.0",
+  "description": "A memory game where you try to click the previous colors in the order given until you click the wrong one.",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisesg526/simon-says.git"
+  },
+  "author": "Moises Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moisesg526/simon-says/issues"
+  },
+  "homepage": "https://github.com/moisesg526/simon-says#readme"
+}

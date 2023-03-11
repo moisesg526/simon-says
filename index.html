@@ -4,24 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#">
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
     <title>Simon Says</title>
   </head>
   <body>
-    <div class="instructions">
-      <h1>Press any button to start</h1>
-    </div>
+      <h1 id="instructions">Press any button on your keyboard to start</h1>
     <div class="buttons">
       <div class="row">
-        <div class="green-btn btn"></div>
-        <div class="red-btn btn"></div>
+        <div type="button" class="green-btn btn" id="green-id"></div>
+        <div type="button" class="red-btn btn" id="red-id"></div>
       </div>
       <div class="row">
-        <div class="yellow-btn btn"></div>
-        <div class="blue-btn btn"></div>
+        <div type="button" class="yellow-btn btn" id="yellow-id"></div>
+        <div type="button" class="blue-btn btn" id="blue-id"></div>
       </div>
     </div>
+    <script src="game.js"></script>
   </body>
 </html>
